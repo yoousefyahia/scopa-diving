@@ -1,0 +1,326 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+body{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   line-height:20px;
+   background-image: url("aerial-overhead-vertical-shot-beautiful-ocean-waves-with-plane-flying.jpg");
+   background-repeat: repeat-x;
+   background-size:cover;
+}
+/* navbar */
+.navbar{
+   overflow: auto;
+}
+.navbar a{
+   color:#ffffff;
+   text-decoration: none;
+}
+.navbar ul{
+   float:right;
+   list-style: none;
+}
+.sign{
+   padding-left: 100px;
+}
+.navbar ul li{
+   display:inline-block;
+}
+.navbar ul li a{
+   font-size: 20px;
+   padding: 15px;
+   margin-top: 18px;
+   text-align: center;
+   display: block;
+   transition: 0.5s all;
+}
+.navbar ul li a:hover{
+    border: 1px solid darkblue;
+    border-radius: 30px;
+    font-weight: bold;
+   color:#169ad5;
+}
+/* head */
+.container{
+    color: #ffffff;
+    padding:121px 25px 112px 30px   ;
+    line-height: 146%;
+   display: flex;
+   justify-content: space-between;
+}
+.about h2 {
+    padding-left:15px ;
+}
+.about p {
+font-size: 15px;
+}
+.container a img {
+    float: right;
+   border-radius: 10px;
+}
+.Search{
+   color: #fff;
+   font-size: 20px;
+   padding:2px 14px ;
+   margin: 0 0 0 3% ;
+   border: 1px solid #c6c6f1;
+   border-radius: 20px;
+text-decoration: none;
+}
+.Search:hover{
+   font-weight: bold;
+   box-shadow:5px 5px 6px rgb(164, 164, 219);
+}
+.pic{
+flex-direction: row;
+}
+
+.text1{
+   margin-right: 15px;
+}
+.services{
+   text-align:center;
+   line-height: 46px;
+   padding-bottom: 34px;
+   margin-top: -52px;
+   color: #FFF;
+   border: 1 solid whitesmoke ;
+}
+div.our-services {
+   display: flex;
+   margin-bottom: 67px;
+ }
+ .border{
+   color: #FFF;
+   float: left;
+   width: 35.33%;
+   padding: 9px;
+   border: 1px solid #fff;
+   border-radius: 10px;
+   margin: 5px;
+ }
+ .border:hover {
+   border: 1px solid #777;
+ }
+ .border div a  {
+   color: #FFF;
+   text-decoration: none;
+   border:  1px solid #c6c6f1;
+   border-radius: 9px;
+   padding: 7px;
+ }
+ .border div a:hover{
+   box-shadow:5px 5px 6px rgb(164, 164, 219);
+}
+ .border h3 {
+   color: #FFF;
+   font-weight: bold;
+   font-size: 26px;
+   text-align:center ; 
+   margin-bottom: 20px;
+}
+.border p {
+font-size: 14px;
+margin-bottom: 20px;
+}
+ div.our-services img {
+   width: 100%;
+   height: auto;
+ }
+ div.desc {
+   padding: 15px;
+   text-align: center;
+ }
+ .about{
+   color: rgb(255, 255, 255);
+    padding:12px 100px 112px 30px   ;
+    line-height: 190%;
+  }
+ .head.about h2 {
+    padding-left:15px ;
+    font-size: 28px;
+ }
+ .about a img{
+    display: flex;
+    flex-direction: row;
+ }
+ .address{
+  justify-content:center;
+   text-align:center;
+   color:white
+ }
+ .photo{
+  width: 230px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgb(218 244 255 / 40%);
+  margin: 20px;
+ }
+ .serivces{
+   display: flex;
+   justify-content: center;
+  flex-wrap: wrap;
+ }
+ .serivces img{
+   width: 100%;
+   width:200px;
+   height: 200px;
+   margin-top:20px ;
+   margin-left:20px
+ }
+ .photo-content{
+   padding-left: 5px;
+   padding-top:10px;
+ }
+ .photo-content h3{
+   font-size: 16px;
+   font-weight:scope;
+   margin-bottom: 5px;
+   color:white
+ }
+ .photo-content p {
+   color: #000000;
+   display:inline-block ;
+   padding: 8px 16px;
+   background-color: #f4dd00;
+   text-decoration: none;
+   border-radius: 50px;
+   margin-top: 10px;
+   cursor: pointer;
+ }
+ .photo-content button{
+   background-color: #f4dd00;
+   border: none;
+ }
+ .serivces img:hover ,
+ .photo-content p:hover ,
+ .photo-content h3:hover{
+ transform: scaley(1.1);
+ }
+ .serivces img:hover {
+    opacity:0.5;
+ }
+ @media  screen and (max-width: 690px) {
+   .navbar {
+      display: flex;
+      justify-content: space-between;
+  }
+
+.navbar ul li a {
+   font-size: 14px;
+   padding: 6px;
+   margin-top: 28px;
+}
+.container {
+   color: #ffffff;
+   padding: 57px 0px 0px 0px;
+   margin: 1px -40px -17px 3px ;
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: flex-end;
+}
+.about {
+   color: rgb(255, 255, 255);
+   padding: 15px 0 114px 23px;
+   line-height: 179%;
+   margin-right: 20px;
+}
+.container a img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   float: none;
+}
+.about h2 {
+text-align: center;
+}
+.about p{
+   margin-right: -43px;
+
+}
+.Search{
+   margin: 0 19px 0 3%;
+}
+.border h3 {
+   font-size: 13px;
+   margin-bottom: 7px;
+}
+.border p {
+   font-size: 11px;
+ } 
+ .border div a {
+   padding: 4px;
+   font-size: 12px;
+}
+.backgro ,#store , header {
+   padding-left: 20px;
+   margin-right: -97px;
+}
+.background {
+   margin-right: -29px;
+}
+.booking-form h2 {
+   font-size: 22px;
+}
+ }
+ .background{
+   margin-left: 90px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #02112c;
+}
+.booking-form{
+   background:transparent;
+   border: 2px solid  ;
+   backdrop-filter: blur(20px);
+   box-shadow: 0 0 10px rgb(0, 0, 0);
+   padding: 20px;
+   border-radius: 10px;
+   max-width: 800px;
+   width: 200%;
+   margin: 0 22%;
+   font-size: larger;
+}
+.booking-form h2{
+   text-align: center;
+   color: aliceblue;
+}
+.booking-form form{
+   display: flex;
+   color: aliceblue;
+   flex-direction: column;
+   font-size: 22px;
+}
+.booking-form input{
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 18px;
+   font-weight: bolder;
+   color: #02112c ;
+}
+.booking-form button{
+   margin-top: 10px;
+   padding: 10px;
+   background-color: #02112c;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 20px;
+}
+.booking-form button:hover{
+   background-color: #16104376;
+}
+.nop{
+   height: 30px;
+   font-weight: bolder;
+   color: #02112c;
+   font-size: 17px;
+}
+label{
+   margin: 10px 0 10px 0;
+}
